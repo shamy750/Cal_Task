@@ -1,0 +1,31 @@
+.container {
+
+    height: 100vh;
+    width: 100vh; 
+}
+
+
+
+
+.counter {
+    font-size: 128px;
+    position: absolute;
+    left: 721px;
+    top: -43px;
+
+}
+
+.button {
+    margin: 26px;
+    padding: 32px;
+    font-size: 41px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: cyan;
+    cursor: pointer;
+}
+.buttons{
+    position: absolute;
+    top: 264px;
+    left: 495px
+}
