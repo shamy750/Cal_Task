@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+   <script>
+   function myFunction() {
+           let x = document.getElementById("name").value;
+           console.log(x);
+           if (fruit.includes(x) == true) {
+       
+               alert(x + " is present");
+           } else {
+               alert(x + " is not present");
+           }
+       }
+   </script>
+   
+</head>
+<body>
+    <div class="=submit">
+    <label>Name</label>
+    <input type="text" name="name" id="name" >
+    <input type="submit" onclick="myFunction();"> 
+</div> 
+    <div class="Fruits">
+        <p id="demo"></p>
+        
+            <script>
+                const fruit = ["apple","mango", "banana", "guava"];
+                document.getElementById("demo").innerHTML = fruit;
+                  
+           
+           </script>
+  
+    </div>
+</body>
+</html>
